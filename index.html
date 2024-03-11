@@ -1,24 +1,236 @@
 <!DOCTYPE html>
-<html>
-<style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile - Grade 8</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
 
-text {
-  text-align: center;
-  }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu {
+            margin-bottom: 20px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+        }
+
+        .menu li a:hover {
+            background-color: #ddd;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section-header {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section-header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 28px;
+            color: #007bff;
+        }
+
+        .section-header h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            color: #007bff;
+        }
+
+        .section-content {
+            margin-bottom: 10px;
+        }
+
+        .aspiration {
+            background-image: url('https://img.freepik.com/premium-vector/hand-drawn-with-brush-abstract-background_584524-168.jpg?w=1800');
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .personal-info {
+            background-color: #f8d7da;
+        }
+
+        .education {
+            background-color: #d4edda;
+        }
+
+        .experience {
+            background-color: #cce5ff;
+        }
+
+        .skills {
+            background-color: #fff3cd;
+        }
+
+        .achievements {
+            background-color: #d6d8d9;
+        }
+        .gaols {
+            background-color: #d6d8d9;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="#aspiration">Aspiration</a></li>
+                <li><a href="#personal-info">Personal Information</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="aspiration" id="aspiration">
+            <h2>Aspiring computer engineer ready to make technology dreams a reality.</h2>
+        </div>
+
+        <div class="section personal-info" id="personal-info">
+            <div class="section-header">
+                <h2>Personal Information</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Name:</strong> Guransh Saini</p>
+                <p><strong>Age:</strong> 13</p>
+                <p><strong>Grade:</strong> 8</p>
+                <p><strong>Location:</strong> Oakville, Canada</p>
+                <p><strong>Email:</strong> sainiguransh@gmail.com</p>
+                <p><strong>Phone:</strong> +1 123-456-7890</p>
+            </div>
+        </div>
+
+        <div class="section education" id="education">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Current School:</strong> Abbey Lane Public School</p>
+                <p><strong>School Soccer Team:</strong> Elementary School</p>
+                <p><strong>School Basketball Team:</strong> Middle School (Member)</p>
+                <p><strong>School Basketball Team:</strong> Grade 8 (Captain)</p>
+                <p><strong>Preparing for:</strong> Rep Basketball Team Tryouts</p>
+            </div>
+        </div>
+
+        <div class="section experience" id="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Basketball Achievements:</strong></p>
+                <ul>
+                    <li>Multiple Gold Medals in Basketball Leagues</li>
+                    <li>MVP (Most Valuable Player) in Basketball Leagues</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section achievements" id="achievements">
+            <div class="section-header">
+                <h2>Achievements</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Science Fair Awards:</strong></p>
+                <ul>
+                    <li>Third Place: Grade 7 - Potato Battery Project</li>
+                    <li>First Place: Grade 8 - Graphite Line LED Project</li>
+                </ul>
+                <p><strong>Other Awards:</strong></p>
+                <ul>
+                    <li>Most Knowledge Award: Grade 7</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section skills" id="skills">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Programming:</strong> Beginner level in Python, JavaScript</p>
+                <p><strong>Computer Skills:</strong> Basic knowledge of HTML, CSS</p>
+                <p><strong>Leadership:</strong> Captain of School Basketball Team</p>
+                <p><strong>Teamwork:</strong> Experience from soccer and basketball teams</p>
+            </div>
+        </div>
+
+        <div class="section goals" id="goals">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="section-goals">
+                <p><strong>Programming:</strong> Beginner level in Python, JavaScript</p>
+                <p><strong>Computer Skills:</strong> Basic knowledge of HTML, CSS</p>
+                <p><strong>Leadership:</strong> Captain of School Basketball Team</p>
+                <p><strong>Teamwork:</strong> Experience from soccer and basketball teams</p>
+            </div>
+        </div>
 
 
-
-</style>
-
-
-
-
-
-<body style="background-color:powderblue;">
-<h1 style="text">Hello My name is Guransh</h1>
-<h2>I like coding maths and science</h2>
-<p>In coding I know: Python, Html, JavaScript and css.</p>
-<p>In maths I know: Fractions decimals percents algebra and many more things.</p>
-<p>In Science I have an interest in space and astronomy</p>
+        <div class="section contact" id="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="section-content">
+                <p>Contact me: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
